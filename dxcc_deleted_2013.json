@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "title": "ARRL DXCC List",
+    "edition": "January 2013 Edition",
+    "totalEntities": 61,
+    "honorRollThreshold": 331,
+    "description": "Deleted DXCC Entities",
+    "filterType": "deleted",
+    "notes": {
+      "qsl_service": "*  Indicates current list of entities for which QSLs may be forwarded by the ARRL membership Outgoing QSL Service.",
+      "third_party_traffic": "#  Indicates entities with which U.S. Amateurs may legally handle third-party message traffic.",
+      "antarctica_special": "Also 3Y, 8J1, AT0, DP0, FT8Y, LU, OR4, VK0, R1AW, VP8, ZL5, ZS1, ZX0, etc.  QSL via country under whose auspices the particular station is operating.  The availability of a third-party traffic agreement and a QSL Bureau applies to the country under whose auspices the particular station is operating.",
+      "deleted_note_1": "Unofficial prefix.",
+      "deleted_note_2": "(Blenheim Reef) Only contacts made May 4, 1967, to June 30, 1975, count for this entity.  Contacts made July 1, 1975, and after, count as Chagos Is. (VQ9).",
+      "deleted_note_3": "(Geyser Reef) Only contacts made May 4, 1967, to February 28, 1978, count for this entity.",
+      "deleted_note_4": "(Abu Ail Is.) Only contacts made  March 30, 1991, and before, count for this entity.",
+      "deleted_note_5": "(1M) Only contacts made July 15, 1972, and before, count for this entity.  Contacts made July 16, 1972, and after, count as Tonga (A3).",
+      "deleted_note_6": "(4W) Only contacts made May 21, 1990, and before, count for this entity.",
+      "deleted_note_7": "(7J1) Only contacts made May 30, 1976, to November 30, 1980, count for this entity.  Contacts made December 1, 1980, and after, count as Ogasawara (JD1).",
+      "deleted_note_8": "(8Z4) Only contacts made December 25, 1981, and before, count for this entity.",
+      "deleted_note_9": "(8Z5,9K3) Only contacts made December 14, 1969, and before, count for this entity.",
+      "deleted_note_10": "(9S4) Only contacts made March 31, 1957, and before, count for this entity.",
+      "deleted_note_11": "(9U5) Only contacts made July 1, 1960, to June 30, 1962, count for this entity.  Contacts made July 1, 1962, and after, count as Burundi (9U) or Rwanda (9X).",
+      "deleted_note_12": "(AC3) Only contacts made April 30, 1975, and before, count for this entity.  Contacts made May 1, 1975, and after, count as India (VU).",
+      "deleted_note_13": "(AC4) Only contacts made May 30, 1974, and before, count for this entity.  Contacts made May 31, 1974, and after, count as China (B).",
+      "deleted_note_14": "(C9) Only contacts made September 15, 1963, and before, count for this entity.  Contacts made September 16, 1963, and after, count as China (B).",
+      "deleted_note_15": "(CN2) Only contacts made June 30, 1960, and before, count for this entity.  Contacts made July 1, 1960, and after, count as Morocco (CN).",
+      "deleted_note_16": "(CR8 (Damao, Diu); CR8 (Goa)) Only contacts made December 31, 1961, and before, count for this entity.",
+      "deleted_note_17": "(CR8,CR10) Only contacts made September 14, 1976, and before, count for this entity.",
+      "deleted_note_18": "(DA-DM) Only contacts made September 16, 1973, and before, count for this entity.  Contacts made September 17, 1973, and after, count as Federal Republic of Germany (DA-DL) or German Democratic Republic (Y2-Y9).",
+      "deleted_note_19": "(DM,Y2-9) Only contacts made September 17, 1973, to October 2, 1990, count for this entity.  On October 3, 1990, German Democratic Republic became part of Federal Republic of Germany.",
+      "deleted_note_20": "(EA9) Only contacts made May 13, 1969, and before, count for this entity.",
+      "deleted_note_21": "(FF) Only contacts made August 6, 1960, and before, count for this entity.",
+      "deleted_note_22": "(FH,FB8) Only contacts made July 5, 1975, and before, count for this entity.  Contacts made July 6, 1975, and after, count as Comoros (D6) or Mayotte (FH,TO).",
+      "deleted_note_23": "(FI8) Only contacts made December 20, 1950, and before, count for this entity.",
+      "deleted_note_24": "(FN8) Only contacts made October 31, 1954, and before, count for this entity.",
+      "deleted_note_25": "(FQ8) Only contacts made August 16, 1960, and before, count for this entity.",
+      "deleted_note_26": "(HK0; HK0,KP3,KS4) Only contacts made September 16, 1981, and before, count for this entity.  Contacts made September 17, 1981, and after, count as San Andres (HK0).",
+      "deleted_note_27": "(I1) Only contacts made March 31, 1957, and before, count for this entity.",
+      "deleted_note_28": "(I5) Only contacts made June 30, 1960, and before, count for this entity.",
+      "deleted_note_29": "(JZ0) Only contacts made April 30, 1963, and before, count for this entity.",
+      "deleted_note_30": "(KR6,8,JR6,KA6) Only contacts made May 14, 1972, and before, count for this entity.  Contacts made May 15, 1972, and after, count as Japan (JA-JS,7J-7N).",
+      "deleted_note_31": "(KS4) Only contacts made August 31, 1972, and before, count for this entity.  Contacts made September 1, 1972, and after, count as Honduras (HQ,HR).",
+      "deleted_note_32": "(KZ5) Only contacts made September 30, 1979, and before, count for this entity.",
+      "deleted_note_33": "(OK-OM) Only contacts made December 31, 1992, and before, count for this entity.",
+      "deleted_note_34": "(P2,VK9 (Papua Territory); P2,VK9 (Territory of New Guinea)) Only contacts made September 15, 1975, and before, count for this entity.  Contacts made September 16, 1975, and after, count as Papua New Guinea (P2).",
+      "deleted_note_35": "(PJ (Bonaire, Curacao); PJ (St. Maarten, Saba, St. Eustatius)) Only contacts made October 9, 2010, and before, count for this entity.",
+      "deleted_note_36": "(PK1-3; PK4; PK5; PK6) Only contacts made April 30, 1963, and before, count for this entity.  Contacts made May 1, 1963, and after, count as Indonesia (YB-YH).",
+      "deleted_note_37": "(ST0) Only contacts made May 7, 1972, to December 31, 1994, count for this entity.",
+      "deleted_note_38": "(UN1) Only contacts made June 30, 1960, and before, count for this entity.  Contacts made July 1, 1960, and after, count as European Russia (UA-UI1-7,RA-RZ).",
+      "deleted_note_39": "(VO) Only contacts made March 31, 1949, and before, count for this entity.  Contacts made April 1, 1949, and after, count as Canada (VA-VG,VO,VY).",
+      "deleted_note_40": "(VQ1,5H1) Only contacts made May 31, 1974, and before, count for this entity.  Contacts made June 1, 1974, and after, count as Tanzania (5H,5I).",
+      "deleted_note_41": "(VQ6) Only contacts made June 30, 1960, and before, count for this entity.",
+      "deleted_note_42": "(VQ9 (Aldabra); VQ9 (Desroches); VQ9 (Farquhar)) Only contacts made June 28, 1976, and before, count for this entity.  Contacts made June 29, 1976, and after, count as Seychelles (S7).",
+      "deleted_note_43": "(VS2,9M2; VS4; ZC5) Only contacts made September 15, 1963, and before, count for this entity.  Contacts made September 16, 1963, and after, count as West Malaysia (9M2,4) or East Malaysia (9M6,8).",
+      "deleted_note_44": "(VS9A,P,S) Only contacts made May 21, 1990, and before, count for this entity.",
+      "deleted_note_45": "(VS9H) Only contacts made November 29, 1967, and before, count for this entity.",
+      "deleted_note_46": "(VS9K) Only contacts made March 10, 1982, and before, count for this entity.",
+      "deleted_note_47": "(ZC6,4X1) Only contacts made June 30, 1968, and before, count for this entity.  Contacts made July 1, 1968, and after, count as Israel (4X,4Z).",
+      "deleted_note_48": "(ZD4) Only contacts made March 5, 1957, and before, count for this entity.",
+      "deleted_note_49": "(ZS0,1) Only contacts made February 29, 1994, and before, count for this entity.",
+      "deleted_note_50": "(ZS9) Only contacts made September 1, 1977, to February 28, 1994, count for this entity.",
+      "deleted_note_51": "(R1/M) Only contacts made February 16, 2012, and before, count for this entity."
+    },
+    "continents": {
+      "AF": "Africa",
+      "AN": "Antarctica",
+      "AS": "Asia",
+      "EU": "Europe",
+      "NA": "North America",
+      "OC": "Oceania",
+      "SA": "South America"
+    },
+    "zoneNotes": {
+      "A": "33, 42, 43, 44",
+      "B": "67, 69-74",
+      "C": "12, 13, 29, 30, 32, 38, 39",
+      "D": "12, 13, 15",
+      "E": "19, 20, 29, 30",
+      "F": "20-26, 30-35, 75",
+      "G": "16, 17, 18, 19, 23",
+      "H": "2, 3, 4, 9, 75",
+      "I": "55, 58, 59"
+    },
+    "generatedAt": "2025-06-05T12:22:50.192Z",
+    "sourceFile": "2013_Current_Deleted.txt",
+    "version": "1.1.0",
+    "author": "BG6LH",
+    "statistics": {
+      "totalParsed": 61,
+      "currentEntities": 0,
+      "deletedEntities": 61,
+      "continents": {
+        "AS": 53,
+        "EU": 67,
+        "AF": 76,
+        "OC": 60,
+        "AN": 2,
+        "NA": 50,
+        "AS,AF": 1,
+        "SA": 30,
+        "EU,AS": 1
+      },
+      "notesStatistics": {
+        "currentNotesCount": 0,
+        "deletedNotesCount": 51,
+        "zoneNotesCount": 9
+      }
+    }
+  },
+  "entities": [
+    {
+      "prefix": "",
+      "entity": "Blenheim Reef",
+      "continent": "AF",
+      "zoneITU": "41",
+      "zoneCQ": "39",
+      "entityCode": 23,
+      "notes": [
+        "deleted_note_2"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "",
+      "entity": "Geyser Reef",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "39",
+      "entityCode": 93,
+      "notes": [
+        "deleted_note_3"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "",
+      "entity": "Abu Ail Is.",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 2,
+      "notes": [
+        "deleted_note_4"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "1M,",
+      "entity": "Minerva Reef",
+      "continent": "OC",
+      "zoneITU": "62",
+      "zoneCQ": "32",
+      "entityCode": 178,
+      "notes": [
+        "deleted_note_1",
+        "deleted_note_5"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "4W",
+      "entity": "Yemen Arab Republic",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 154,
+      "notes": [
+        "deleted_note_6"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "7J1",
+      "entity": "Okino Tori-shima",
+      "continent": "AS",
+      "zoneITU": "45",
+      "zoneCQ": "27",
+      "entityCode": 194,
+      "notes": [
+        "deleted_note_7"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "8Z4",
+      "entity": "Saudi Arabia/Iraq Neutral Zone",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 226,
+      "notes": [
+        "deleted_note_8"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "8Z5,9K3",
+      "entity": "Kuwait/Saudi Arabia Neutral Zone",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 68,
+      "notes": [
+        "deleted_note_9"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "9S4",
+      "entity": "Saar",
+      "continent": "EU",
+      "zoneITU": "28",
+      "zoneCQ": "14",
+      "entityCode": 210,
+      "notes": [
+        "deleted_note_10"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "9U5",
+      "entity": "Ruanda-Urundi",
+      "continent": "AF",
+      "zoneITU": "52",
+      "zoneCQ": "36",
+      "entityCode": 208,
+      "notes": [
+        "deleted_note_11"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "AC3,",
+      "entity": "Sikkim",
+      "continent": "AS",
+      "zoneITU": "41",
+      "zoneCQ": "22",
+      "entityCode": 231,
+      "notes": [
+        "deleted_note_1",
+        "deleted_note_12"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "AC4,",
+      "entity": "Tibet",
+      "continent": "AS",
+      "zoneITU": "41",
+      "zoneCQ": "23",
+      "entityCode": 268,
+      "notes": [
+        "deleted_note_1",
+        "deleted_note_13"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "C9",
+      "entity": "Manchuria",
+      "continent": "AS",
+      "zoneITU": "33",
+      "zoneCQ": "24",
+      "entityCode": 164,
+      "notes": [
+        "deleted_note_14"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "CN2",
+      "entity": "Tangier",
+      "continent": "AF",
+      "zoneITU": "37",
+      "zoneCQ": "33",
+      "entityCode": 264,
+      "notes": [
+        "deleted_note_15"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "CR8",
+      "entity": "Damao, Diu",
+      "continent": "AS",
+      "zoneITU": "41",
+      "zoneCQ": "22",
+      "entityCode": 42,
+      "notes": [
+        "deleted_note_16"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "CR8",
+      "entity": "Goa",
+      "continent": "AS",
+      "zoneITU": "41",
+      "zoneCQ": "22",
+      "entityCode": 101,
+      "notes": [
+        "deleted_note_16"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "CR8,CR10",
+      "entity": "Portuguese Timor",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 200,
+      "notes": [
+        "deleted_note_17"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "DA-DM",
+      "entity": "Germany",
+      "continent": "EU",
+      "zoneITU": "28",
+      "zoneCQ": "14",
+      "entityCode": 81,
+      "notes": [
+        "deleted_note_18"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "DM,Y2-9",
+      "entity": "German Democratic Republic",
+      "continent": "EU",
+      "zoneITU": "28",
+      "zoneCQ": "14",
+      "entityCode": 229,
+      "notes": [
+        "deleted_note_19"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "EA9",
+      "entity": "Ifni",
+      "continent": "AF",
+      "zoneITU": "37",
+      "zoneCQ": "33",
+      "entityCode": 113,
+      "notes": [
+        "deleted_note_20"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "FF",
+      "entity": "French West Africa",
+      "continent": "AF",
+      "zoneITU": "46",
+      "zoneCQ": "35",
+      "entityCode": 59,
+      "notes": [
+        "deleted_note_21"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "FH,FB8",
+      "entity": "Comoros",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "39",
+      "entityCode": 39,
+      "notes": [
+        "deleted_note_22"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "FI8",
+      "entity": "French Indo-China",
+      "continent": "AS",
+      "zoneITU": "49",
+      "zoneCQ": "26",
+      "entityCode": 58,
+      "notes": [
+        "deleted_note_23"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "FN8",
+      "entity": "French India",
+      "continent": "AS",
+      "zoneITU": "41",
+      "zoneCQ": "22",
+      "entityCode": 67,
+      "notes": [
+        "deleted_note_24"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "FQ8",
+      "entity": "French Equatorial Africa",
+      "continent": "AF",
+      "zoneITU": "47,52",
+      "zoneCQ": "36",
+      "entityCode": 57,
+      "notes": [
+        "deleted_note_25"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "HK0",
+      "entity": "Bajo Nuevo",
+      "continent": "NA",
+      "zoneITU": "11",
+      "zoneCQ": "08",
+      "entityCode": 19,
+      "notes": [
+        "deleted_note_26"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "HK0,KP3,KS4",
+      "entity": "Serrana Bank & Roncador Cay",
+      "continent": "NA",
+      "zoneITU": "11",
+      "zoneCQ": "07",
+      "entityCode": 228,
+      "notes": [
+        "deleted_note_26"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "I1",
+      "entity": "Trieste",
+      "continent": "EU",
+      "zoneITU": "28",
+      "zoneCQ": "15",
+      "entityCode": 271,
+      "notes": [
+        "deleted_note_27"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "I5",
+      "entity": "Italian Somaliland",
+      "continent": "AF",
+      "zoneITU": "48",
+      "zoneCQ": "37",
+      "entityCode": 115,
+      "notes": [
+        "deleted_note_28"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "JZ0",
+      "entity": "Netherlands New Guinea",
+      "continent": "OC",
+      "zoneITU": "51",
+      "zoneCQ": "28",
+      "entityCode": 184,
+      "notes": [
+        "deleted_note_29"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "KR6,8,JR6,KA6",
+      "entity": "Okinawa (Ryukyu Is.)",
+      "continent": "AS",
+      "zoneITU": "45",
+      "zoneCQ": "25",
+      "entityCode": 193,
+      "notes": [
+        "deleted_note_30"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "KS4",
+      "entity": "Swan Is.",
+      "continent": "NA",
+      "zoneITU": "11",
+      "zoneCQ": "07",
+      "entityCode": 261,
+      "notes": [
+        "deleted_note_31"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "KZ5",
+      "entity": "Canal Zone",
+      "continent": "NA",
+      "zoneITU": "11",
+      "zoneCQ": "07",
+      "entityCode": 28,
+      "notes": [
+        "deleted_note_32"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "OK-OM",
+      "entity": "Czechoslovakia",
+      "continent": "EU",
+      "zoneITU": "28",
+      "zoneCQ": "15",
+      "entityCode": 218,
+      "notes": [
+        "deleted_note_33"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "P2,VK9",
+      "entity": "Papua Territory",
+      "continent": "OC",
+      "zoneITU": "51",
+      "zoneCQ": "28",
+      "entityCode": 198,
+      "notes": [
+        "deleted_note_34"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "P2,VK9",
+      "entity": "Territory of New Guinea",
+      "continent": "OC",
+      "zoneITU": "51",
+      "zoneCQ": "28",
+      "entityCode": 267,
+      "notes": [
+        "deleted_note_34"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PJ",
+      "entity": "Bonaire, Curacao",
+      "continent": "SA",
+      "zoneITU": "11",
+      "zoneCQ": "09",
+      "entityCode": 85,
+      "notes": [
+        "deleted_note_35"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PJ",
+      "entity": "St. Maarten, Saba, St. Eustatius",
+      "continent": "NA",
+      "zoneITU": "11",
+      "zoneCQ": "08",
+      "entityCode": 255,
+      "notes": [
+        "deleted_note_35"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PK1-3",
+      "entity": "Java",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 119,
+      "notes": [
+        "deleted_note_36"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PK4",
+      "entity": "Sumatra",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 258,
+      "notes": [
+        "deleted_note_36"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PK5",
+      "entity": "Netherlands Borneo",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 183,
+      "notes": [
+        "deleted_note_36"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "PK6",
+      "entity": "Celebe & Molucca Is.",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 30,
+      "notes": [
+        "deleted_note_36"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "R1/M",
+      "entity": "Malyj Vysotskij I.",
+      "continent": "EU",
+      "zoneITU": "29",
+      "zoneCQ": "16",
+      "entityCode": 151,
+      "notes": [
+        "deleted_note_51"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ST0",
+      "entity": "Southern Sudan",
+      "continent": "AF",
+      "zoneITU": "47,48",
+      "zoneCQ": "34",
+      "entityCode": 244,
+      "notes": [
+        "deleted_note_37"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "UN1",
+      "entity": "Karelo-Finnish Republic",
+      "continent": "EU",
+      "zoneITU": "19",
+      "zoneCQ": "16",
+      "entityCode": 128,
+      "notes": [
+        "deleted_note_38"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VO",
+      "entity": "Newfoundland, Labrador",
+      "continent": "NA",
+      "zoneITU": "09",
+      "zoneCQ": "02,05",
+      "entityCode": 186,
+      "notes": [
+        "deleted_note_39"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VQ1,5H1",
+      "entity": "Zanzibar",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "37",
+      "entityCode": 307,
+      "notes": [
+        "deleted_note_40"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VQ6",
+      "entity": "British Somaliland",
+      "continent": "AF",
+      "zoneITU": "48",
+      "zoneCQ": "37",
+      "entityCode": 26,
+      "notes": [
+        "deleted_note_41"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VQ9",
+      "entity": "Aldabra",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "39",
+      "entityCode": 8,
+      "notes": [
+        "deleted_note_42"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VQ9",
+      "entity": "Desroches",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "39",
+      "entityCode": 44,
+      "notes": [
+        "deleted_note_42"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VQ9",
+      "entity": "Farquhar",
+      "continent": "AF",
+      "zoneITU": "53",
+      "zoneCQ": "39",
+      "entityCode": 55,
+      "notes": [
+        "deleted_note_42"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VS2,9M2",
+      "entity": "Malaya",
+      "continent": "AS",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 155,
+      "notes": [
+        "deleted_note_43"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VS4",
+      "entity": "Sarawak",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 220,
+      "notes": [
+        "deleted_note_43"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VS9A,P,S",
+      "entity": "People's Democratic Rep. of Yemen",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 243,
+      "notes": [
+        "deleted_note_44"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VS9H",
+      "entity": "Kuria Muria I.",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 139,
+      "notes": [
+        "deleted_note_45"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "VS9K",
+      "entity": "Kamaran Is.",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "21",
+      "entityCode": 127,
+      "notes": [
+        "deleted_note_46"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ZC5",
+      "entity": "British North Borneo",
+      "continent": "OC",
+      "zoneITU": "54",
+      "zoneCQ": "28",
+      "entityCode": 25,
+      "notes": [
+        "deleted_note_43"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ZC6,4X1",
+      "entity": "Palestine",
+      "continent": "AS",
+      "zoneITU": "39",
+      "zoneCQ": "20",
+      "entityCode": 196,
+      "notes": [
+        "deleted_note_47"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ZD4",
+      "entity": "Gold Coast, Togoland",
+      "continent": "AF",
+      "zoneITU": "46",
+      "zoneCQ": "35",
+      "entityCode": 102,
+      "notes": [
+        "deleted_note_48"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ZS0,1",
+      "entity": "Penguin Is.",
+      "continent": "AF",
+      "zoneITU": "57",
+      "zoneCQ": "38",
+      "entityCode": 493,
+      "notes": [
+        "deleted_note_49"
+      ],
+      "isCurrent": false
+    },
+    {
+      "prefix": "ZS9",
+      "entity": "Walvis Bay",
+      "continent": "AF",
+      "zoneITU": "57",
+      "zoneCQ": "38",
+      "entityCode": 488,
+      "notes": [
+        "deleted_note_50"
+      ],
+      "isCurrent": false
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+                 ARRL DXCC COUNTRIES LIST
+                             
+      NOTE: @INDICATES ELIGIBLE FOR FIELD CHECKING.
+                             
+NOTE: *INDICATES CURRENT LIST OF COUNTRIES FOR WHICH QSLs MAY BE
+       FORWARDED BY THE ARRL MEMBERSHIP OUTGOING QSL SERVICE.
+                             
+NOTE: #INDICATES COUNTRIES WITH WHICH U.S. AMATEURS MAY LEGALLY
+       HANDLE THIRD-PARTY MESSAGE TRAFFIC.
+
+NOTE: &Third-party traffic permitted with special-events stations
+       in the United Kingdom having the prefix GB only, with the
+       exception that GB3 stations are not included in this
+       agreement.                                    
+                                                        ZONE
+     Prefix         Country                  Cont.    ITU   CQ
+     1A0(1)         Sov. Mil. Order of Malta EU        28   15
+     1S(1)          Spratly Is.              AS        50   26
+    @3A*            Monaco                   EU        27   14
+     3B6, 7*        Agalega & St. Brandon    AF        53   39
+    @3B8*           Mauritius                AF        53   39
+    @3B9*           Rodriguez I.             AF        53   39
+    @3C             Equatorial Guinea        AF        47   36
+     3C0            Pagalu I.                AF        52   36
+    @3D2*           Fiji                     OC        56   32
+    @3D2*           Conway Reef              OC        56   32
+    @3D2*           Rotuma I.                OC        56   32
+    @3DA#*          Swaziland                AF        57   38
+     3V             Tunisia                  AF        37   33
+     3W, XV         Vietnam                  AS        49   26
+     3X             Guinea                   AF        46   35
+     3Y*            Bouvet                   AF        67   38
+     3Y*            Peter I I.               AN        72   12
+     4J,4K*         Azerbaijan               AS        29   21
+     4J1,R1MV*      Malyj Vysotskij I.       EU        29   16
+    @4K2,UA1,R1FJ*  Franz Josef Land         EU        75   40
+     4L*            Georgia                  AS        29   21
+    @4P-4S*         Sri Lanka                AS        41   22
+    @4U#*           ITU HQ                   EU        28   14
+    @4U*            United Nations HQ        NA        08   05
+    @4X, 4Z#*       Israel                   AS        39   20
+     5A             Libya                    AF        38   34
+    @5B*            Cyprus                   AS        39   20
+    @5H-5I          Tanzania                 AF        53   37
+    @5N-5O*         Nigeria                  AF        46   35
+     5R-5S          Madagascar               AF        53   39
+    @5T(2)          Mauritania               AF        46   35
+     5U(3)          Niger                    AF        46   35
+    @5V*            Togo                     AF        46   35
+    @5W*            Western Samoa            OC        62   32
+     5X             Uganda                   AF        48   37
+    @5Y-5Z*         Kenya                    AF        48   37
+    @6V-6W(4)*      Senegal                  AF        46   35
+    @6Y#*           Jamaica                  NA        11   08
+     7O(5)          Yemen                    AS        39   21
+    @7P*            Lesotho                  AF        57   38
+    @7Q             Malawi                   AF        53   37
+    @7T-7Y*         Algeria                  AF        37   33
+    @8P*            Barbados                 NA        11   08
+    @8Q             Maldives                 AS/AF     41   22
+    @8R#*           Guyana                   SA        12   09
+     9A, YU2 (6)*   Croatia                  EU        28   15
+     9G(7)#         Ghana                    AF        46   35
+    @9H*            Malta                    EU        28   15
+    @9I-9J*         Zambia                   AF        53   36
+    @9K*            Kuwait                   AS        39   21
+    @9L#*           Sierra Leone             AF        46   35
+    @9M2, 4(8)*     West Malaysia            AS        54   28
+    @9M6, 8(8)*     East Malaysia            OC        54   28
+    @9N             Nepal                    AS        42   22
+    @9Q-9T          Zaire                    AF        52   36
+     9U(9)          Burundi                  AF        52   36
+    @9V(10)         Singapore                AS        54   28
+    @9X(11)         Rwanda                   AF        52   36
+    @9Y-9Z#*        Trinidad & Tobago        SA        11   09
+    @A2*            Botswana                 AF        57   38
+    @A3*            Tonga                    OC        62   32
+    @A4*            Oman                     AS        39   21
+     A5             Bhutan                   AS        41   22
+    @A6             United Arab Emirates     AS        39   21
+    @A7*            Qatar                    AS        39   21
+    @A9*            Bahrain                  AS        39   21
+    @AP-AS*         Pakistan                 AS        41   21
+    @BV*            Taiwan                   AS        44   24
+    @BY,BT*         China                    AS        (A)  23,24
+    @C2*            Nauru                    OC        65   31
+    @C3*            Andorra                  EU        27   14
+    @C5#*           The Gambia               AF        46   35
+    @C6*            Bahamas                  NA        11   08
+     C8-9           Mozambique               AF        53   37
+    @CA-CE#*        Chile                    SA        14,16   12
+    @CE0#*          Easter I.                SA        63   12
+    @CE0#*          Juan Fernandez Is.       SA        14   12
+     CE0#*          San Felix & San Ambrosio SA        14   12
+    @CE9/KC4^*      Antarctica               AN        (B)  (C)
+    @CM, CO#*       Cuba                     NA        11   08
+    @CN*            Morocco                  AF        37   33
+    @CP#*           Bolivia                  SA        12,14   10
+    @CT*            Portugal                 EU        37   14
+    @CT3*           Madeira Is.              AF        36   33
+    @CU*            Azores                   EU        36   14
+    @CV-CX#*        Uruguay                  SA        14   13
+    @CY0*           Sable I.                 NA        09   05
+    @CY9*           St. Paul I.              NA        09   05
+     D2-3           Angola                   AF        52   36
+    @D4*            Cape Verde               AF        46   35
+    @D6#(11)*       Comoros                  AF        53   39
+    @DA-DL,Y2-Y9(12)*Fed. Rep. of Germany    EU        28   14
+    @DU-DZ#*        Philippines              OC        50   27
+     E3(13)         Eritrea                  AF        48   37
+    @EA-EH*         Spain                    EU        37   14
+    @EA6-EH6*       Balearic Is.             EU        37   14
+    @EA8-EH8*       Canary Is.               AF        36   33
+    @EA9-EH9*       Ceuta & Melilla          AF        37   33
+    @EI-EJ*         Ireland                  EU        27   14
+     EK*            Armenia                  AS        29   21
+    @EL#*           Liberia                  AF        46   35
+     EP-EQ          Iran                     AS        40   21
+     ER*            Moldovia                 EU        29   16
+    @ES*            Estonia                  EU        29   15
+     ET             Ethiopia                 AF        48   37
+     EU, EV, EW*    Belarus                  EU        29   16
+     EX*            Kyrgystan                AS        30,31 17
+     EY*            Tajikistan               AS        30   17
+     EZ*            Turkmenistan             AS        30   17
+    @F*             France                   EU        27   14
+    @FG*            Guadeloupe               NA        11   08
+    @FJ, FS(1)*     Saint Martin             NA        11   08
+    @FH(11)*        Mayotte                  AF        53   39
+    @FK*            New Caledonia            OC        56   32
+    @FM*            Martinique               NA        11   08
+     FO*            Clipperton I.            NA        10   07
+    @FO*            French Polynesia         OC        63   32
+    @FP*            St. Pierre & Miquelon    NA        09   05
+     FR/G(14)*      Glorioso Is.             AF        53   39
+     FR/J, E(14)*   Juan de Nova, Europa     AF        53   39
+    @FR*            Reunion                  AF        53   39
+     FR/T*          Tromelin I.              AF        53   39
+    @FT8W*          Crozet I.                AF        68   39
+    @FT8X*          Kerguelen Is.            AF        68   39
+    @FT8Z*          Amsterdam & St. Paul Is. AF        68   39
+    @FW*            Wallis & Futuna Is.      OC        62   32
+    @FY*            French Guiana            SA        12   09
+    @G, GX*&        England                  EU        27   14
+    @GD, GT*        Isle of Man              EU        27   14
+    @GI, GN*        Northern Ireland         EU        27   14
+    @GJ, GH*        Jersey                   EU        27   14
+    @GM, GS*        Scotland                 EU        27   14
+    @GU, GP*        Guernsey                 EU        27   14
+    @GW, GC*        Wales                    EU        27   14
+    @H4*            Solomon Is.              OC        51   28
+    @HA, HG*        Hungary                  EU        28   15
+    @HB*            Switzerland              EU        28   14
+    @HB*            Liechtenstein            EU        28   14
+    @HC-HD#*        Ecuador                  SA        12   10
+    @HC8-HD8#*      Galapagos Is.            SA        12   10
+    @HH#*           Haiti                    NA        11   08
+    @HI#*           Dominican Republic       NA        11   08
+    @HJ-HK#*        Colombia                 SA        12   09
+    @HK0#*          Malpelo I.               SA        12   09
+    @HK0#*          San Andres & Providencia NA        11   07
+    @HL*            South Korea              AS        44   25
+    @HO-HP#*        Panama                   NA        11   07
+    @HQ-HR#*        Honduras                 NA        11   07
+    @HS*            Thailand                 AS        49   26
+    @HV*            Vatican                  EU        28   15
+    @HZ*            Saudi Arabia             AS        39   21
+    @I*             Italy                    EU        28,37
+                                                            15,33
+    @IS, IM*        Sardinia                 EU        28   15
+    @J2*            Djibouti                 AF        48   37
+    @J3#*           Grenada                  NA        11   08
+    @J5             Guinea-Bissau            AF        46   35
+    @J6#*           St. Lucia                NA        11   08
+    @J7#*           Dominica                 NA        11   08
+    @J8#*           St. Vincent              NA        11   08
+    @JA-JS*         Japan                    AS        45   25
+    @JD1(15)*       Minami Torishima         OC        90   27
+    @JD1(16)*       Ogasawara                AS        45   27
+    @JT-JV*         Mongolia                 AS        32,33 23
+    @JW*            Svalbard                 EU        18   40
+    @JX*            Jan Mayen                EU        18   40
+    @JY#*           Jordan                   AS        39   20
+    @K,W,N, AA-AK#  United States of America NA        6,7,83,4,5
+    @KC6(17)        Belau (W. Caroline Is.)  OC        64   27
+    @KG4#*          Guantanamo Bay           NA        11   08
+    @KH0#           Mariana Is.              OC        64   27
+     KH1#           Baker & Howland Is.      OC        61   31
+    @KH2#*          Guam                     OC        64   27
+    @KH3#*          Johnston I.              OC        61   31
+    @KH4#           Midway I.                OC        61   31
+     KH5#           Palmyra & Jarvis Is.     OC        61,62  31
+     KH5K#          Kingman Reef             OC        61   31
+    @KH6#*          Hawaii                   OC        61   31
+    @KH7#           Kure I.                  OC        61   31
+    @KH8#           American Samoa           OC        62   32
+    @KH9#           Wake I.                  OC        65   31
+    @KL7#*          Alaska                   NA        1,2   1
+     KP1#           Navassa I.               NA        11   08
+    @KP2#*          Virgin Is.               NA        11   08
+    @KP4#*          Puerto Rico              NA        11   08
+     KP5(18)#       Desecheo I.              NA        11   08
+    @LA-LN*         Norway                   EU        18   14
+    @LO-LW#*        Argentina                SA        14,16   13
+    @LX*            Luxembourg               EU        27   14
+    @LY, UP*        Lithuania                EU        29   15
+    @LZ*            Bulgaria                 EU        28   20
+    @OA-OC#*        Peru                     SA        12   10
+    @OD             Lebanon                  AS        39   20
+    @OE*            Austria                  EU        28   15
+    @OF-OI*         Finland                  EU        18   15
+    @OH0*           Aland Is.                EU        18   15
+    @OJ0*           Market Reef              EU        18   15
+     OK-OL(19)*     Czech Republic           EU        28   15
+     OM(19)*        Slovak Republic          EU        28   15 
+    @ON-OT*         Belgium                  EU        27   14
+    @OX*            Greenland                NA        5,75 40
+    @OY*            Faroe Is.                EU        18   14
+    @OZ*            Denmark                  EU        18   14
+    @P2(20)*        Papua New Guinea         OC        51   28
+    @P4(21)*        Aruba                    SA        11   09
+    @PA-PI*         Netherlands              EU        27   14
+    @PJ2, 4, 9*     Bonaire,Curacao
+                    (Neth. Antilles)         SA        11   09
+    @PJ5-8*         St.Maarten,Saba,
+                    St.Eustatius             NA        11   08
+    @PP-PY#*        Brazil                   SA        (D)  11
+    @PP0-PY0#       Fernando de Noronha      SA        13   11
+     PP0-PY0#*      St. Peter & St. Paul RocksSA       13   11
+    @PP0-PY0#*      Trindade & Martim Vaz Is.SA        15   11
+    @PZ*            Suriname                 SA        12   09
+     S0(1),(22)*    Western Sahara           AF        46   33
+     S2             Bangladesh               AS        41   22
+     S5, YU3(7)*    Slovenia                 EU        28   15
+    @S7             Seychelles               AF        53   39
+    @S9*            Sao Tome & Principe      AF        47   36
+    @SA-SM*         Sweden                   EU        18   14
+    @SN-SR*         Poland                   EU        28   15
+    @ST*            Sudan                    AF        48   34
+    @ST0*           Southern Sudan           AF        47,48   34
+    @SU*            Egypt                    AF        38   34
+    @SV-SZ*         Greece                   EU        28   20
+     SV/A*          Mount Athos              EU        28   20
+    @SV5*           Dodecanese               EU        28   20
+    @SV9*           Crete                    EU        28   20
+    @T2(23)         Tuvalu                   OC        65   31
+    @T30            W. Kiribati (Gilbert Is.)OC        65   31
+    @T31            C. Kiribati 
+                    (Brit. Phoenix Is.)      OC        62   31
+    @T32            E. Kiribati (Line Is.)   OC        61,63   31
+    @T33            Banaba I. (Ocean I.)     OC        65   31
+     T5             Somalia                  AF        48   37
+    @T7*            San Marino               EU        28   15
+     T9,4N4
+     4O4,YU4(24)*   Bosnia-Herzegovina       EU        28   15
+    @TA-TC*         Turkey                   EU/AS     39   20
+    @TF*            Iceland                  EU        17   40
+    @TG, TD#*       Guatemala                NA        11   07
+    @TI, TE#*       Costa Rica               NA        11   07
+    @TI9#*          Cocos I.                 NA        11   07
+    @TJ             Cameroon                 AF        47   36
+    @TK*            Corsica                  EU        28   15
+    @TL(25)         Central Africa           AF        47   36
+     TN(26)         Congo                    AF        52   36
+    @TR(27)*        Gabon                    AF        52   36
+     TT(28)         Chad                     AF        47   36
+    @TU(29)*        Ivory Coast              AF        46   35
+    @TY(30)         Benin                    AF        46   35
+    @TZ(31)         Mali                     AF        46   35
+     UA1,3,4,6*     European Russia          EU        (E)  16
+     UA2*           Kaliningrad              EU        29   15
+     UA8,9,0 *      Asiatic Russia           AS        (F)  (G)
+     UB, UT, UY*    Ukraine                  EU        29   16
+     UC*            Belarus                  EU        29   16
+     UD*            Azerbaijan               AS        29   21
+     UF*            Georgia                  AS        29   21
+     UG*            Armenia                  AS        29   21
+     UH*            Turkmenistan             AS        30   17
+     UI*            Uzbekistan               AS        30   17
+     UJ*            Tajikistan               AS        30   17
+     UL*            Kazakhstan               AS        29-31   17
+     UM*            Kyrgyzstan               AS        30,31   17
+     UO*            Moldova                  EU        29   16
+    @V2#*           Antigua & Barbuda        NA        11   08
+    @V3#*           Belize                   NA        11   07
+    @V4(32)#        St.Kitts & Nevis         NA        11   08
+    @V5*            Namibia                  AF        57   38
+    @V6(33)         Micronesia 
+                    (E.Caroline Is.)         OC        65   27
+    @V7#*           Marshall Is.             OC        65   31
+    @V8*            Brunei                   OC        54   28
+    @VE, VO, VY#*   Canada                   NA        (H)  1-5
+    @VK#*           Australia                OC        (I)  29,30
+     VK0#*          Heard I.                 AF        68   39
+    @VK0#*          Macquarie I.             OC        60   30
+    @VK9C#*         Cocos-Keeling Is.        OC        54   29
+    @VK9L#*         Lord Howe I.             OC        60   30
+    @VK9M#*         Mellish Reef             OC        56   30
+    @VK9N#*         Norfolk I.               OC        60   32
+    @VK9W#*         Willis I.                OC        55   30
+    @VK9X#*         Christmas I.             OC        54   29
+    @VP2E(32)       Anguilla                 NA        11   08
+    @VP2M(32)       Montserrat               NA        11   08
+    @VP2V(32)*      British Virgin Is.       NA        11   08
+    @VP5*           Turks & Caicos Is.       NA        11   08
+    @VP8*           Falkland Is.             SA        16   13
+    @VP8, LU*       South Georgia I.         SA        73   13
+    @VP8, LU*       South Orkney Is.         SA        73   13
+    @VP8, LU*       South Sandwich Is.       SA        73   13
+    @VP8, LU,
+     CE9, HF0, 4K1* South Shetland Is.       SA        73   13
+    @VP9*           Bermuda                  NA        11   05
+    @VQ9*           Chagos Is.               AF        41   39
+    @VR6#           Pitcairn I.              OC        63   32
+    @VS6, VR2*      Hong Kong                AS        44   24
+    @VU*            India                    AS        41   22
+    @VU*            Andaman & Nicobar Is.    AS        49   26
+    @VU*            Laccadive Is.            AS        41   22
+    @XA-XI#*        Mexico                   NA        10   06
+     XA4-XI4#*      Revilla Gigedo           NA        10   06
+    @XT(34)         Burkina Faso             AF        46   35
+     XU             Cambodia                 AS        49   26
+     XW             Laos                     AS        49   26
+    @XX9            Macao                    AS        44   24
+     XY-XZ          Myanmar                  AS        49   26
+     YA             Afghanistan              AS        40   21
+    @YB-YH(33)*     Indonesia                OC        51,54   28
+     YI             Iraq                     AS        39   21
+    @YJ*            Vanuatu                  OC        56   32
+     YK*            Syria                    AS        39   20
+    @YL, UQ*        Latvia                   EU        29   15
+    @YN#*           Nicaragua                NA        11   07
+    @YO-YR*         Romania                  EU        28   20
+    @YS#*           El Salvador              NA        11   07
+    @YT-YU, YZ*     Yugoslavia               EU        28   15
+    @YV-YY#*        Venezuela                SA        12   09
+     YV0#*          Aves I.                  NA        11   08
+    @Z2*            Zimbabwe                 AF        53   38
+     Z3,4N5,YU5(36)*Macedonia                EU        28   15
+     ZA*            Albania                  EU        28   15
+    @ZB2*           Gibraltar                EU        37   14
+    @ZC4(37)*       UK Sov. Base Areas 
+                    on Cyprus                AS        39   20
+    @ZD7            St. Helena               AF        66   36
+    @ZD8*           Ascension I.             AF        66   36
+    @ZD9            Tristan da Cunha & 
+                    Gough I.                 AF        66   38
+    @ZF*            Cayman Is.               NA        11   08
+     ZK1*           N. Cook Is.              OC        62   32
+    @ZK1*           S. Cook Is.              OC        62   32
+    @ZK2*           Niue                     OC        62   32
+     ZK3            Tokelau Is.              OC        62   31
+    @ZL-ZM*         New Zealand              OC        60   32
+    @ZL7*           Chatham Is.              OC        60   32
+     ZL8*           Kermadec Is.             OC        60   32
+     ZL9*           Auckland  & Campbell Is. OC        60   32
+    @ZP#*           Paraguay                 SA        14   11
+    @ZR-ZU*         South Africa             AF        57   38
+    @ZS8*           Prince Edward & Marion Is.AF       57   38
+    
+
+NOTES:
+1    Unofficial prefix.
+2    (5T)Only contacts made June 20, 1960, and after, count for
+     this country.
+3    (5U)Only contacts made August 3, 1960, and after, count for
+     this country.
+4    (6W)Only contact made June 20, 1960, and after, count for
+     this country.
+5    (70)Only contacts made May 22, 1990, and after, count for
+     this country.
+6    (9A,YU2,S5,YU3)Only contacts made June 26, 1991, and after, 
+     count for this country.
+7    (9G)Only contacts made March 5, 1957, and after, count for
+     this country.
+8    (9M2,4,6,8)Only contacts made September 16, 1963, and after
+     count for this country.
+9    (9U, 9X)Only contacts made July 1, 1962, and after, count
+     for this country.
+10   (9V)Contacts made from September 16, 1963 to August 8, 1965,
+     count for this for West Malaysia.
+11   (D6,FH8)Only contacts made July 15, 1975, and after, count
+     for this country.
+12   (DA-DL, Y2-Y9)Only contacts made with DA-DL stations
+     September 17,1973, and after, and contacts made Y2-Y9
+     stations October 3, 1990 and after, count for this country.
+13   (E3) Only contacts made November 14, 1962, and before, or
+     May 24, 1991, and after, count for this country.
+14   (FR)Only contacts made June 25, 1960, and after, count for
+     this country.
+15   (JD)Formerly Marcus Island.
+16   (KC6)Formerly Bonin and Volcano Islands
+17   (KC6)Includes Yap Islands December 31, 1980, and before.
+18   (KP5,KP4)Only contacts made March 1, 1979, and after, count
+     for this country.
+19   (OK-OL, OM)Only contacts made January 1, 1993, and after,  
+     count for this countr.
+20   (P2)Only contacts made September 16, 1975, and after count
+     for this country.
+21   (P4)Only contacts made January 1, 1986, and after, count for
+     this country.
+22   (S0)Contacts with Rio de Oro (Spanish Sahara), EA9, also
+     count for this country.
+23   (T2)Only contacts made January 1, 1976, and after, count for
+     this country.
+24   (T9,4N4,4O4,YU4)Only contacts made October 15, 1991, and   
+     after, count for this country.
+25   (TL)Only contacts made August 13, 1960, and after, count for
+     this country.
+26   (TN)Only contacts made August 15, 1960, and after, count for
+     this country.
+27   (TR)Only contacts made August 17, 1960, and after, count for
+     this country.
+28   (TT)Only contacts made August 11, 1960, and after, count for
+     this country.
+29   (TU)Only contacts made August 7, 1960, and after, count for
+     this country.
+30   (TY)Only contacts made August 1, 1960, and after, count for
+     this country.
+31   (TZ)Only contacts made June 20, 1960, and after, count for
+     this country.
+32   (V4,VP2)For DXCC credit for contacts made May 31, 1958, and
+     before, see page 97, June 1958 QST.
+33   (V6,KC6)Includes Yap Islands January 1, 1981, and after.
+34   (XT)Only contacts made August 16, 1960, and after, count for
+     this country.
+35   (YB)Only contacts made May 1, 1963, and after, count for
+     this country.
+36   (Z3,4N5,YU5) Only contacts made September 8, 1991, and after, 
+     count for this country.
+37   (ZC4)Only contacts made August 16, 1960, and after, count
+     for this country.
+
+^    Also 3Y, 8J1, AT0, DP0, FT8Y, LU, OR4, VK0, R1AW, VP8, ZL5,
+ZS1, ZX0, etc.  QSL via country under whose auspices the
+particular station is operating.  The availability of a third-
+party traffic agreement and a QSL Bureau applies to the country
+under whose auspices the particular station is operating.
+
+Zone Notes can be found with Prefix Cross References.
+
+Deleted Countries Total: 57
+
+DELETED COUNTRIES
+                                                             
+Credit for any of these countries can be given if the date of
+contact in question agrees with the date(s) shown in the
+corresponding footnote.
+
+                                                        ZONE
+     Prefix         Country                  Cont.    ITU   CQ
+
+         
+     (2)            Blenheim Reef            AF        41   39
+     (3)            Geyser Reef              AF        53   39
+     (4)            Abu Ail Is.              AS        39   21
+     1M(1),(5)      Minerva Reef             OC        62   32
+     4W(6)          Yemen Arab Rep.          AS        39   21
+     7J1(7)         Okino Tori-shima         AS        45   27
+     8Z4(8)         Saudi Arabia/Iraq 
+                    Neut. Zone               AS        39   21
+     8Z5, 9K3(9)    Kuwait/Saudi Arabia 
+                    Neut. Zone               AS        39   21
+     9S4(10)         Saar                     EU        28   14
+     9U5(11)        Ruanda-Urundi            AF        52   36
+     AC3(1), (12)   Sikkim                   AS        41   22
+     AC4(1), (13)   Tibet                    AS        41   23
+     C9(14)         Manchuria                AS        33   24
+     CN2(15)        Tangier                  AF        37   33
+     CR8(16)        Damao, Diu               AS        41   22
+     CR8(16)        Goa                      AS        41   22
+     CR8, CR10(17)  Portuguese Timor         OC        54   28
+     DA-DM(18)      Germany                  EU        28   14
+     DM, Y2-9(19)   German Dem. Rep.         EU        28   14
+     EA9(20)        Ifni                     AF        37   33
+     FF(21)         French West Africa       AF        46   35
+     FH, FB8(22)    Comoros                  AF        53   39
+     FI8(23)        French Indo-China        AS        49   26
+     FN8(24)        French India             AS        41   22
+     FQ8(25)        Fr. Equatorial Africa    AF        47,52   36
+     HK0(26)        Bajo Nuevo               NA        11   08
+     HK0,KP3,KS4(26)Serrana Bank & 
+                    Roncador Cay             NA        11   07
+     I1(27)         Trieste                  EU        28   15
+     I5(28)         Italian Somaliland       AF        48   37
+     JZ0(29)        Netherlands N. Guinea    OC        51   28
+     KR6,8,JR6,
+     KA6(30)        Okinawa (Ryukyu Is.)     AS        45   25
+     KS4(31)        Swan Is.                 NA        11   07
+     KZ5(32)        Canal Zone               NA        11   07
+     OK-OM(33)      Czechoslovakia           EU        28   15
+     P2, VK9(34)    Papua Territory          OC        51   28
+     P2, VK9(34)    Terr. New Guinea         OC        51   28
+     PK1-3(35)      Java                     OC        54   28
+     PK4(35)        Sumatra                  OC        54   28
+     PK5(35)        Netherlands Borneo       OC        54   28
+     PK6(35)        Celebe & Molucca Is.     OC        54   28
+     UN1(36)        Karelo-Finnish Rep.      EU        19   16
+     VO(37)         Newfoundland, Labrador   NA        09   02,05
+     VQ1, 5H1(38)   Zanzibar                 AF        53   37
+     VQ6(39)        British Somaliland       AF        48   37
+     VQ9(40)        Aldabra                  AF        53   39
+     VQ9(40)        Desroches                AF        53   39
+     VQ9(40)        Farquhar                 AF        53   39
+     VS2, 9M2(41)   Malaya                   AS        54   28
+     VS4(41)        Sarawak                  OC        54   28
+     VS9A, P, S(42) People's Dem. Rep. 
+                    of Yemen                 AS        39   21
+     VS9H(43)       Kuria Muria I.           AS        39   21
+     VS9K(44)       Kamaran Is.              AS        39   21
+     ZC5(41)        British North Borneo     OC        54   28
+     ZC6, 4X1(45)   Palestine                AS        39   20
+     ZD4(46)        Gold Coast, Togoland     AF        46   35
+     ZS0, 1 (47)    Penguin Is.              AF        57   38
+     ZS9(48)        Walvis Bay               AF        57   38
+NOTES:
+
+1    Unofficial prefix.
+2    (Blenheim Reef)Only contacts made from May 4, 1967, to June
+     30, 1975, count for this country. Contacts made July 1,
+     1975, and after, count as Chagos (VQ9).
+3    (Geysey Reef)Only contacts made from May 4, 1967, to
+     February 28, 1978, count for this country.
+4    (Abu Ail Is.)Only contacts made  March 30, 1991, and before,
+     count for this country.
+5    (1M)Only contacts made from July 15, 1972, and before, count
+     for this country. Contacts made July 16, 1972, and after,
+     count as Tonga (A3).
+6    (4W)Only contacts made before May 21, 1990, and before,     
+     count for this country.
+7    (7J1)Only contacts made May 30, 1976, to November 30, 1980,
+     country for this country. Contacts made December 1, 1980,and
+     after country as Ogasawara (JD1).
+8    (8Z4)Only contacts made December 25, 1981, and before, count
+     for this country.
+9    (8Z5,9K3)Only contacts made December 14, 1969, and before,
+     count for this country.
+10   (9S4)Only contacts made March 31, 1957, and before, count
+     for this country.
+11   (9U5)Only contacts made from July 1, 1960, to June 30, 1962,
+     count for this country. Contact made July 1, 1962, and
+     after, count as Burundi (9U) or Rwanda (9X).
+12   (AC3)Only contacts made April 30, 1975, and before, count
+     for this country. Contacts made May 1, 1975, and after,
+     count as India (VU).
+13   (AC4)Only contacts made May 30, 1974, and before, count for
+     this country. Contact made May 31, 1974, and after, count as
+     China (BY).
+14   (C9)Only contacts made September 15, 1963, and before, count
+     for this country. Contact made September 16, 1963, and
+     after, count as China (BY).
+15   (CN2)Only contacts made June 30, 1960, and before, count for
+     this country. Contact made July 1, 1960, and after, count as
+     Morocco (CN).
+16   (CR8)Only contacts made December 31, 1961, and before, count
+     for this country.
+17   (CR8,CR10)Only contacts made September 14, 1976, and
+     before, count for this country.
+18   (DA-DM)Only contacts made September 16, 1973, and before,
+     count for this country. Contacts made September 17, 1973,
+     and after, count as eith FRG (DA-DL) or GDR (Y2-Y9).
+19   (DM,Y2-Y9)Only contacts made from September 17, 1973, to
+     October 2, 1990 count for this country. On October 3, 1990
+     the GDR became part of the FRG.
+20   (EA9)Only contacts made May 13, 1969, and before, count for
+     this country.
+21   (FF)Only contacts made August 6, 1960, and before, count for
+     this country.
+22   (FH, FB8)Only contacts made July 5, 1975, and before, count 
+     for this country. Contacts made July 6, 1975, and after,
+     count as Comoros (D6) or Mayotte (FH).
+23   (FI8)Only contacts made December 20, 1950, and before, count
+     for this country.
+24   (FN8)Only contacts made October 31, 1954, and before, count
+     for this country.
+25   (FQ8)Only contacts made August 16, 1960, and before witl
+     count for this country.
+26   (HK,KP3,KS4)Only contacts made September 16, 1981, and
+     before, count for this country. Contacts made September 17,
+     1981, and after, count as San Andres (HK).
+27   (I1)Only contacts made March 31, 1957, and before, count for
+     this country.
+28   (I5)Only contacts made June 30, 1960, and before, count for
+     this country.
+29   (JZ)Only contacts made April 30, 1963, and before, count
+     for this country.
+30   (KR6,8,JR6,KA6)Only contacts made May 14, 1972, and before,
+     count for this country. Contacts made May 15, 1972, and
+     after, count as Japan (JA).
+31   (KS4)Only contacts made August 31, 1972, and before, count
+     for this country. Contacts made September 1, 1972, and
+     after, count as Honduras (HR).
+32   (KZ5)Only contacts made September 30, 1979, and before,
+     count for this country.
+33   (OK-OM)Only contacts made December 31, 1992, and before,    
+     count for this country.
+34   (P2,VK9)Only contacts made September 15, 1975, and before,
+     count for this country. Contacts made September 16, 1975,
+     and after, count as Papua new Guinea (P2).
+35   (PK1-6)Only contacts made April 30, 1963, and before, count
+     for this country. Contact made May 1, 1963, and after, count
+     as Indonesia.
+36   (UN1)Only contacts made June 30, 1960, and before, count for
+     this country. Contacts made July 1, 1960, and after count as
+     European RSFSR (UA).
+37   (VO)Only contacts made March 31, 1949, and before, count for
+     this country. Contacts made April 1, 1949, and after, count
+     as Canada (VE).
+38   (VQ1,5H1)Only contacts made May 31, 1974, and before, count
+     for this country. Contacts made June 1, 1974, and after,
+     count as Tanzania (5H).
+39   (VQ6)Only contacts made June 30, 1960, and before, count for
+     this country.
+40   (VQ9)Only contacts made June 28, 1976, and before, count for
+     this country. Contacts made June 29, 1976, and after, count
+     as Seychelles (S7).
+41   (VS2,VS4,ZC5,9M2)Only contacts made September 15, 1963,
+     and before, count for this country. contact made September
+     16, 1963, and after, count as West malaysia (9M2) ro East
+     Malaysia (9M6,8).
+42   (VS9A,P,S)Only contacts made before May 22, 1990, and       
+     before, count for this country.
+43   (VS9H)Only contacts made November 29, 1967, and before,
+     count for this country.
+44   (VS9K)Only contacts made on March 10, 1982, and before,
+     count for this country.
+45   (ZC6,4X1)Only contacts made June 30, 1968, and before, count
+     for this country.Contacts made July 1, 1968, and after,
+     count as  Israel (4X).
+46   (ZD4)Only contacts made March 5, 1957, and before, count for
+     this country.
+47   (ZS0, 1)Only contacts made February 29, 1994, and before,
+     count for this country.
+48   (ZS9)Only contacts made from September 1, 1977 to February
+     28, 1994, count for this country. 

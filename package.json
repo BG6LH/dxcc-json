@@ -1,0 +1,53 @@
+{
+  "name": "dxcc-json",
+  "version": "0.1.0",
+  "description": "A specialized toolkit for processing ARRL DXCC (DX Century Club) entity data, converting text format to structured JSON with validation tools",
+  "main": "dxcc-txt2json.js",
+  "type": "module",
+  "scripts": {
+    "convert": "node dxcc-txt2json.js",
+    "convert:current": "node dxcc-txt2json.js txt/2022_Current_Deleted.txt --current",
+    "convert:deleted": "node dxcc-txt2json.js txt/2022_Current_Deleted.txt --deleted",
+    "convert:all": "node dxcc-txt2json.js txt/2022_Current_Deleted.txt --all",
+    "validate": "echo 'Open checker/dxcc-json-checker.html in your browser to validate JSON files'"
+  },
+  "keywords": [
+    "dxcc",
+    "lotw",
+    "amateur-radio",
+    "ham-radio",
+    "arrl",
+    "json",
+    "converter",
+    "dx",
+    "entities",
+    "prefix",
+    "qsl"
+  ],
+  "author": {
+    "name": "BG6LH",
+    "email": "bg6lh@qsl.net"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BG6LH/dxcc-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BG6LH/dxcc-json/issues"
+  },
+  "homepage": "https://github.com/BG6LH/dxcc-json#readme",
+  "files": [
+    "dxcc-txt2json.js",
+    "schema.json",
+    "checker/",
+    "txt/",
+    "*.json",
+    "README.md",
+    "README.zh_CN.md",
+    "Prefix Cross References.md"
+  ]
+}

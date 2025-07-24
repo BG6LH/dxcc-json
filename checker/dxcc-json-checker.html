@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DXCC JSON Checker</title>
+    <link rel="stylesheet" href="dxcc-json-checker.css">
+</head>
+<body>
+<div class="dxcc-checker-container">
+    <h1>DXCC JSON Entity Checker</h1>
+    <p>Upload a DXCC JSON file to validate and display the entity table for manual verification against ARRL original files.</p>
+    
+    <!-- File Upload Section -->
+    <div class="file-upload-section" id="fileUploadSection">
+        <h3>Select DXCC JSON File</h3>
+        <p>Choose a JSON file or drag and drop it here</p>
+        
+        <div class="file-input-wrapper">
+            <input type="file" id="fileInput" class="file-input" accept=".json" title="Choose DXCC JSON file" placeholder="Select a DXCC JSON file" aria-label="DXCC JSON file input" />
+            <button class="file-input-button">Choose File</button>
+        </div>
+        
+        <div id="fileInfo" class="file-info"></div>
+        <div id="errorMessage" class="error-message"></div>
+        <div id="validationResults" class="validation-results"></div>
+        
+        <button id="loadButton" class="load-button">Load and Display Table</button>
+    </div>
+    
+    <!-- DXCC Table Container -->
+    <div id="dxcc-table-container"></div>
+    
+</div>
+    <!-- Include DXCC table component -->
+    <script src="./dxcc-json-checker.js"></script>
+    <script>
+        let selectedFile = null;
+        let validatedData = null;
+        
+        // File input handling
+        const fileInput = document.getElementById('fileInput');
+        const fileUploadSection = document.getElementById('fileUploadSection');
+        const fileInfo = document.getElementById('fileInfo');
+        const errorMessage = document.getElementById('errorMessage');
+        const validationResults = document.getElementById('validationResults');
+        const loadButton = document.getElementById('loadButton');
+        
+        // File input change event
+        fileInput.addEventListener('change', handleFileSelect);
+        
+        // Drag and drop events
+        fileUploadSection.addEventListener('dragover', handleDragOver);
+        fileUploadSection.addEventListener('dragleave', handleDragLeave);
+        fileUploadSection.addEventListener('drop', handleDrop);
+        
+        // Load button event
+        loadButton.addEventListener('click', loadTable);
+        
+        function handleDragOver(e) {
+            e.preventDefault();
+            fileUploadSection.classList.add('dragover');
+        }
+        
+        function handleDragLeave(e) {
+            e.preventDefault();
+            fileUploadSection.classList.remove('dragover');
+        }
+        
+        function handleDrop(e) {
+            e.preventDefault();
+            fileUploadSection.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                const file = files[0];
+                if (file.type === 'application/json' || file.name.endsWith('.json')) {
+                    selectedFile = file;
+                    processFile(file);
+                } else {
+                    showError('Please select a valid JSON file.');
+                }
+            }
+        }
+        
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                selectedFile = file;
+                processFile(file);
+            }
+        }
+        
+        function processFile(file) {
+            hideMessages();
+            
+            // Show file info
+            fileInfo.innerHTML = `
+                <strong>Selected File:</strong> ${file.name}<br>
+                <strong>Size:</strong> ${(file.size / 1024).toFixed(2)} KB<br>
+                <strong>Last Modified:</strong> ${new Date(file.lastModified).toLocaleString()}
+            `;
+            fileInfo.style.display = 'block';
+            
+            // Read and validate file
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const jsonData = JSON.parse(e.target.result);
+                    validateDXCCData(jsonData);
+                } catch (error) {
+                    showError(`Invalid JSON format: ${error.message}`);
+                    loadButton.style.display = 'none';
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function validateDXCCData(data) {
+            const results = [];
+            let isValid = true;
+            
+            // Check basic structure
+            if (!data || typeof data !== 'object') {
+                results.push({ type: 'error', message: 'Invalid JSON structure' });
+                isValid = false;
+            } else {
+                results.push({ type: 'success', message: 'Valid JSON structure' });
+            }
+            
+            // Check required top-level properties
+            const requiredProps = ['metadata', 'entities'];
+            requiredProps.forEach(prop => {
+                if (!data.hasOwnProperty(prop)) {
+                    results.push({ type: 'error', message: `Missing required property: ${prop}` });
+                    isValid = false;
+                } else {
+                    results.push({ type: 'success', message: `Found required property: ${prop}` });
+                }
+            });
+            
+            // Validate metadata
+            if (data.metadata) {
+                const metadataProps = ['title', 'edition', 'generatedAt', 'totalEntities', 'statistics'];
+                metadataProps.forEach(prop => {
+                    if (!data.metadata.hasOwnProperty(prop)) {
+                        results.push({ type: 'warning', message: `Missing metadata property: ${prop}` });
+                    } else {
+                        results.push({ type: 'success', message: `Found metadata property: ${prop}` });
+                    }
+                });
+                
+                // Check statistics
+                if (data.metadata.statistics) {
+                    const statsProps = ['currentEntities', 'deletedEntities'];
+                    statsProps.forEach(prop => {
+                        if (!data.metadata.statistics.hasOwnProperty(prop)) {
+                            results.push({ type: 'warning', message: `Missing statistics property: ${prop}` });
+                        } else {
+                            results.push({ type: 'success', message: `Found statistics property: ${prop}` });
+                        }
+                    });
+                }
+            }
+            
+            // Validate entities array
+            if (data.entities) {
+                if (!Array.isArray(data.entities)) {
+                    results.push({ type: 'error', message: 'Entities must be an array' });
+                    isValid = false;
+                } else {
+                    results.push({ type: 'success', message: `Found ${data.entities.length} entities` });
+                    
+                    // Check first few entities for required properties
+                    const entityProps = ['prefix', 'entityName', 'continent', 'zoneITU', 'zoneCQ', 'entityCode', 'isCurrent'];
+                    const sampleSize = Math.min(5, data.entities.length);
+                    
+                    for (let i = 0; i < sampleSize; i++) {
+                        const entity = data.entities[i];
+                        const missingProps = entityProps.filter(prop => !entity.hasOwnProperty(prop));
+                        
+                        if (missingProps.length > 0) {
+                            results.push({ type: 'warning', message: `Entity ${i + 1} missing properties: ${missingProps.join(', ')}` });
+                        }
+                    }
+                    
+                    if (sampleSize > 0) {
+                        results.push({ type: 'success', message: `Validated ${sampleSize} sample entities` });
+                    }
+                }
+            }
+            
+            // Display validation results
+            showValidationResults(results, isValid);
+            
+            if (isValid) {
+                validatedData = data;
+                loadButton.style.display = 'inline-block';
+            } else {
+                loadButton.style.display = 'none';
+            }
+        }
+        
+        function showValidationResults(results, isValid) {
+            const html = results.map(result => 
+                `<div class="validation-item validation-${result.type}">• ${result.message}</div>`
+            ).join('');
+            
+            validationResults.innerHTML = `
+                <h4>Validation Results ${isValid ? '✅' : '❌'}</h4>
+                ${html}
+            `;
+            validationResults.style.display = 'block';
+        }
+        
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'block';
+        }
+        
+        function hideMessages() {
+            fileInfo.style.display = 'none';
+            errorMessage.style.display = 'none';
+            validationResults.style.display = 'none';
+            loadButton.style.display = 'none';
+        }
+        
+        function loadTable() {
+            if (!validatedData) {
+                showError('No valid data to load');
+                return;
+            }
+            
+            // Clear existing table
+            const container = document.getElementById('dxcc-table-container');
+            container.innerHTML = '';
+            
+            // Create new widget with validated data
+            const widget = new DXCCTableWidget({
+                containerId: 'dxcc-table-container',
+                data: validatedData,
+                showHeader: true,
+                showFilters: true,
+                showFootnotes: true
+            });
+            
+            widget.initWithData();
+        }
+    </script>
+
+</body>
+</html>
