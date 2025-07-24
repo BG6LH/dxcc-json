@@ -211,3 +211,13 @@ This project follows an open source license. For specific license information, p
 ---
 
 If you have any questions or suggestions, please contact the project maintainer through GitHub Issues.
+
+
+## ⭐ Support the Project
+
+This project was completed with the assistance of AI tools. I am trying to turn the needs I encounter in amateur radio activities into some interesting applications. If you are interested, you can leave me a message in the project. Your sponsorship is also the motivation for me to maintain this work. If this project helps you, please give it a ⭐!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01D9CDW){:target="_blank"}
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jamflying){:target="_blank"}
+
