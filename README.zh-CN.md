@@ -218,7 +218,7 @@ dxcc-json/
 
 本项目在AI工具辅助下完成。我正在尝试把我在业余无线电活动中遇到的需求，做成一些有趣的应用。如果你有兴趣，可以在项目里给我留言。你的赞助，也是让我维持这些工作的动力。如果这个项目对你有帮助，请给它一个 ⭐！
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01D9CDW){:target="_blank"}
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01D9CDW)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jamflying){:target="_blank"}
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jamflying)
 
